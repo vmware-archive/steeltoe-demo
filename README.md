@@ -2,13 +2,13 @@
 
 ## .NET Core
 
-[Configuration Demo](dotnet-core-config-demo.md)
+[Configuration Demo](Demos/Core/Config/dotnet-core-config-demo.md)
 
-[Discovery and Circuit Breaker](dotnet-core-discovery-and-circuit-breaker-demo.md)
+[Discovery and Circuit Breaker](Demos/Core/DiscoveryAndCircuitBreaker/dotnet-core-discovery-and-circuit-breaker-demo.md)
 
 ## .NET Framework
 
-[Configuration Demo](dotnet-framework-config-demo.md)
+[Configuration Demo](Demos/Framework/Core/dotnet-framework-config-demo.md)
 
-[Discovery and Circuit Breaker](dotnet-framework-discovery-and-circuit-breaker-demo.md)
+[Discovery and Circuit Breaker](Demos/Framework/DiscoveryAndCircuitBreaker/dotnet-framework-discovery-and-circuit-breaker-demo.md)
 
