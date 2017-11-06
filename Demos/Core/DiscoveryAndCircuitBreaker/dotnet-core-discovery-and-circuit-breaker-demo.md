@@ -22,7 +22,7 @@ Prerequisites
 
 2. Clone the Steeltoe Demo
 
-	[Steeltoe Demo:  https://github.com/rossr3-pivotal/steeltoe-demo](https://github.com/rossr3-pivotal/steeltoe-demo)
+	[Steeltoe Demo:  https://github.com/Pivotal-Field-Engineering/steeltoe-demo](https://github.com/Pivotal-Field-Engineering/steeltoe-demo)
 
 	##### Get the source code for the demo app
 
@@ -30,16 +30,16 @@ Prerequisites
 
 	Fork and Clone
 
-	[Steeltoe Demo:  https://github.com/rossr3-pivotal/steeltoe-demo](https://github.com/rossr3-pivotal/steeltoe-demo)
+	[Steeltoe Demo:  https://github.com/Pivotal-Field-Engineering/steeltoe-demo](https://github.com/Pivotal-Field-Engineering/steeltoe-demo)
 
 	For Linux/Mac:
 	```bash
-	$ git clone https://github.com/rossr3-pivotal/steeltoe-demo.git
+	$ git clone https://github.com/Pivotal-Field-Engineering/steeltoe-demo.git
 	```
 
 	For Windows
 	```
-	C:\<Some Directory to save code>\> git clone https://github.com/rossr3-pivotal/steeltoe-demo.git
+	C:\<Some Directory to save code>\> git clone https://github.com/Pivotal-Field-Engineering/steeltoe-demo.git
 	```
 	
 Steps
@@ -53,7 +53,7 @@ In this demmo we are going to follow these steps to deploy a couple of .NET Core
 ### Step 1
 ##### Build the Fortune Teller Service
 
-By this point, you should have cloned the [Steeltoe Demo:  https://github.com/rossr3-pivotal/steeltoe-demo](https://github.com/rossr3-pivotal/steeltoe-demo).  Let's prepare the application to deploy to Cloud Foundry. 
+By this point, you should have cloned the [Steeltoe Demo:  https://github.com/Pivotal-Field-Engineering/steeltoe-demo](https://github.com/Pivotal-Field-Engineering/steeltoe-demo).  Let's prepare the application to deploy to Cloud Foundry. 
 
 Change into the correct folder, which is CircuitBreaker/src/AspDotNetCore/FortuneTeller/Fortune-Teller-Service. Notice that we are going down several levels to the Fortune-Teller-Service Folder:
 
