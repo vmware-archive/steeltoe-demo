@@ -6,7 +6,7 @@ The demonstration applications are designed to use the services provided Spring 
 
 * link:Core/README.adoc[.NET Core Demos]
 * link:Core/Config/dotnet-core-config-demo.md[Config Server]
-* link:Core/DiscoveryAnyCircuitBreaker/dotnet-core-discovery-and-circuit-breaker-demo.md[Service Registry and Circuit Breaker]
+* link:Core/DiscoveryAndCircuitBreaker/dotnet-core-discovery-and-circuit-breaker-demo.md[Service Registry and Circuit Breaker]
 
 == .NET Framework
 
