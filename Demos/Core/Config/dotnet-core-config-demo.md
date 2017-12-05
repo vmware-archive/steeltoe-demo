@@ -123,7 +123,7 @@ You can now proced to the next step.
 
 ```bash
 dotnet restore --configfile nuget.config
-dotnet publish -f netcoreapp2.0 -r ubuntu.14.04-x64
+dotnet publish -f netcoreapp2.0 -r ubuntu.14.04-x64 -o ./publish
 ```
 
 ### Step 5
@@ -131,16 +131,8 @@ dotnet publish -f netcoreapp2.0 -r ubuntu.14.04-x64
 
 Push the Fortune Teller Service 
 
-On Linux/Mac:
-
 ```bash
-$ cf push -f manifest.yml -p bin/Debug/netcoreapp2.0/ubuntu.14.04-x64/publish 
-```
-  
-On Windows: 
-  
-```bash
-cf push -f manifest.yml -p bin\Debug\netcoreapp2.0\ubuntu.14.04-x64\publish
+$ cf push -f manifest.yml -p ./publish 
 ```
 
 Which will result in output of
